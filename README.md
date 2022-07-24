@@ -27,7 +27,7 @@ ciphertext = jcrypt.encrypt(key, msg)
 
 # Decrypt a message:
 ciphertext = "gAAAAABi3V9...(etc.)"
-ciphertext = jcrypt.decrypt(key, ciphertext)
+cleartext = jcrypt.decrypt(key, ciphertext)
 
 ```
 
