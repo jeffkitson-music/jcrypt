@@ -22,7 +22,7 @@ key = jcrypt.get_key(password="lazydog", salt="salt")
 
 # Encrypt a message:
 msg = "Hello world!"
-ciphertext = jcrypt.encrypt(gen_key, msg)
+ciphertext = jcrypt.encrypt(key, msg)
 
 
 # Decrypt a message:
