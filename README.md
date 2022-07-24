@@ -38,7 +38,7 @@ From the [cryptography docs](https://cryptography.io/):
 Arguably using a random salt (via os.urandom(16)) is safer, however, sharing/storage may be problematic and may not be easy for beginners. In this implementation the salt is essentially treated as a second password. 
 
 ## :mega: Shoutouts
-- [cryptography](https://cryptography.io/). You never cease to amaze me.
+- [cryptography](https://cryptography.io/en/latest/fernet/#using-passwords-with-fernet). You never cease to amaze me.
 - [Alex Gaynor](https://github.com/alex) for pushing me to do better. 
 
 
